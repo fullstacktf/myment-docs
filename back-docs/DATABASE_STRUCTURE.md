@@ -1,6 +1,6 @@
 # Database
 
-#### What is it?
+### What is it?
 
 Is an organized collection of structured information, or data, typically stored electronically in a computer system.
 
@@ -10,14 +10,16 @@ Data within the most common types of databases in operation today is typically m
 
 # Technologies that we will use in the Myment Travel web app database:
 
-- [MariaDB](https://mariadb.com/kb/en/): open-source fork of the MySQL relational database management system (RDBMS) that use structured query language (SQL) for writing and querying data.
+- [MariaDB](https://mariadb.com/kb/en/): Open-source fork of the MySQL relational database management system (RDBMS) that use structured query language (SQL) for writing and querying data.
 
 - [Sequelize](https://sequelize.org/): Javascript library that makes it easy to manage a SQL database and implements the ORM technique (wich allows us to write queries, using the object-oriented paradigm of our preferred programming language). In other words, we will interact with our database using our language of choice instead of SQL.
 
 # Database structure
 
-The Myment Travel web app has an internal structure that needs to be understood in order to make a clear and logical front-end.
+The Myment Travel web app has an internal structure that needs to be understood in order to make a clear, logical and concise front-end.
 
-1. We will use Sequelize as an ORM.
-2. MariaDB as a database management system.
+1. MariaDB as a database management system.
+   * Inside the MariaDB database you can see the myment database.
+
+2. We will use Sequelize as an ORM.
 3. 
