@@ -1,6 +1,6 @@
-#Main Page
+# Main Page
 
-##Description
+## Description
 
 You will access here through the Main Button from the landing page, only if you are logged.
 The main page will offer the following actions:
@@ -10,7 +10,7 @@ The main page will offer the following actions:
   - Quick action side bar with short of the user profile's info.
 
 
-##Components
+## Components
 
   - NewsHeader
     - News Bar

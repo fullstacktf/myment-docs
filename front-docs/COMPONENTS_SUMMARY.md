@@ -1,6 +1,6 @@
-#Components Summary
+# Components Summary
 
-##Description
+## Description
 
 A summary of all the components we must code and its status.  I suggest to add the current status of each component. And no, It will not replace the git's issues, but it will complement it.
 
@@ -12,7 +12,7 @@ Status legend:
 - LW (Working in Logic): someone is working the logic of the component
 - TD (Totally done): the component is operating
 
-###Components
+### Components
 
   - (TD) Generate-Header
     - (P) Location bar
