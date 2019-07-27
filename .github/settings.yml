@@ -1,0 +1,114 @@
+repository:
+  name: myment-front
+  description: Myment Travel app FrontEnd
+  homepage:
+  topics:
+  private: true
+  has_issues: true
+  has_wiki: true
+  has_downloads: false
+  default_branch: master
+  allow_squash_merge: true
+  allow_merge_commit: true
+labels:
+  - name: "bug"
+    color: CC0000
+    description: An issue with the system bug
+
+  - name: "enhancement"
+    color: 83b8e8
+    description: An issue to enhancement the system ⚙️.
+
+  - name: "question"
+    color: cd237b
+    description: An issue to maintenance the system.
+
+  - name: "feature"
+    color: 336699
+    description: New functionality.
+
+  - name: "discussion"
+    color: ddd8cc
+    description: we haven't reached a consensus there, maybe you can contribute?
+ 
+  - name: "feedback"
+    color: fcc73a
+    description: General feedback more than bug reports or feature requests.
+  
+  - name: "help-wanted"
+    color: 46E251
+    description: The FullStacktf core team would appreciate help from the community in resolving these issues.
+
+  - name: "more-information-needed"
+    color: 8A46E2
+    description: More information needs to be collected about these problems or feature requests (e.g. steps to reproduce).
+
+  - name: "needs-reproduction"
+    color: C346E2
+    description: Likely bugs, but haven't been reliably reproduced
+
+  - name: "duplicate"
+    color: 74b566
+    description: Issues which are duplicates of other issues, i.e. they have been reported before.
+
+  - name: "blocked"
+    color: FA0415
+    description: Issues blocked on other issues.
+
+  - name: "wontfix"
+    color: 04B0FA
+    description: The FullStacktf core team has decided not to fix these issues for now, either because they're working as intended or for some other reason.
+
+  - name: "invalid"
+    color: FAD104
+    description: Issues which aren't valid (e.g. user errors).
+
+  - name: "work-in-progress"
+    color: 6F04FA
+    description: Pull requests which are still being worked on, more changes will follow.
+
+  - name: "needs-review"
+    color: FA0425
+    description: Pull requests which need code review, and approval from maintainers or FullStacktf core team.
+
+  - name: "under-review"
+    color: 04FAFA
+    description: Pull requests being reviewed by maintainers or FullStacktf core team.
+
+  - name: "requires-changes"
+    color: FA7F04
+    description: Pull requests which need to be updated based on review comments and then reviewed again.
+
+  - name: "needs-testing"
+    color: 3EFA04
+    description: Pull requests which need manual testing.
+
+  - name: "Priority: Critical"
+    color: e2002a
+    description: Critical priority tasks that should be done ASAP
+
+  - name: "Priority: High"
+    color: ec5b30
+    description: High priority tasks that can be done when there's no critical priority tasks
+
+  - name: "Priority: Medium"
+    color: fcc73a
+    description: medium priority tasks that can be done when there's no High priority tasks
+
+  - name: "Priority: Low"
+    color: 009922
+    description: low priority tasks that can be done when there's no medium priority tasks
+
+branches:
+  - name: master
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true
+        dismissal_restrictions: {}
+      required_status_checks:
+        strict: true
+        contexts: []
+      enforce_admins: false
+      restrictions:
