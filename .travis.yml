@@ -3,7 +3,7 @@ node_js:
   - "10"
 branches:
   only:
-    - template
+    - master
 
 jobs:
   include:
@@ -18,4 +18,4 @@ jobs:
         skip_cleanup: true
         github_token: $GITHUB_TOKEN  
         on:
-          branch: template
+          branch: master
