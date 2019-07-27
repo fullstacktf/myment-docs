@@ -16,7 +16,7 @@ The main page will offer the following actions:
     - News Bar
     - Logo
 
-  - Non functional ranking board
+  - Non functional ranking board (just visual)
   
   - Map
   
