@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx gitbook build"
+    "build": "npx gitbook build && rm -r _book/.gitignore _book/.github _book/.travis.yml _book/package* _book/*.md _book/LICENSE"
   },
   "keywords": [],
   "author": "",
