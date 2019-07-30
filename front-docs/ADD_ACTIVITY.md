@@ -1,9 +1,9 @@
-#Add activity
+# Add activity
 
-##Description 
+## Description 
 A logged user will add a new activity to our DB to be used by other users in their itineraries.
 
-##Components
+## Components
 
   - Idea add form
 

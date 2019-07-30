@@ -1,10 +1,10 @@
-#Profile page
+# Profile page
 
-##Description
+## Description
 
 Pop-up window. Will show the full page off the user info. And will provide the user complete his personal information (tags, location...)
 
-##Components 
+## Components 
  
 - Close button
 

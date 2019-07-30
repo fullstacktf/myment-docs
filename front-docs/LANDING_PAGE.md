@@ -9,7 +9,7 @@ $ npm run start
 ```
 You will build and serve on localhost:4000 the vue application.
 
-##Components
+## Components
 
 - Animated logo
 
