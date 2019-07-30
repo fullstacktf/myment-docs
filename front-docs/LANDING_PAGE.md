@@ -1,6 +1,6 @@
 # Creating Landing
 
-The landing page is build on Vue.js based on logo animation and xD
+The landing page is build on Vue.js based on logo animation and 
 
 ```
 $ npm run start
