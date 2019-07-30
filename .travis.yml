@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "10"
+
+jobs:
+  include:
+    - stage: "Deploy"
+      name: "Build and Deploy App"
+      cache: npm
+      script: 
+        npm run build
+      deploy:
+        local_dir: _book
+        provider: pages
+        skip_cleanup: true
+        github_token: $GITHUB_TOKEN  
+        on:
+          branch: master
