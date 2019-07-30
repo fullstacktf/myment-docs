@@ -57,9 +57,9 @@ At this very moment and in this first version, you can see four (4) tables that 
 
 Under the tables, you can see that there are certain explanations in which I would like to inquire.
 
-First, you can see that the **add_moments** table has an arrow that goes down. Right there, you can see that the moments contain categories, and that in turn those categories contain items, and that those items contain a name or tags.
+First, you can see that the **add_moments** table has an arrow that goes down. Right there, you can see that the **moments contain categories**, and that in turn **those categories contain items**, and that **those items contain a name or tags**.
 
-Following this logic: ***category > item > name, tags**
+Following this logic: **category > item > name, tags**
 
 ## Why?
 
