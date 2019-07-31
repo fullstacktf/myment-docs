@@ -1,6 +1,6 @@
 #This is an example of an aproximation of the json structure that the backend should recive
 ###    ¡¡¡¡¡(please do not take it literally, it could not match with the correct JSON format)!!!!!
-´´´
+```
 citty: {
     zone1: {
         lodging: {
@@ -45,4 +45,4 @@ citty: {
     .
     .
 }
-´´´
+```
