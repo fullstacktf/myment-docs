@@ -1,0 +1,16 @@
+{
+    "plugins":[
+        "image-class",
+        "copy-code-button",
+        "forkmegithub",
+        "resources",
+        "sequence",
+        "remove-publish-link"
+
+    ],
+    "pluginsConfig": {
+      "forkmegithub": {
+          "url": "https://github.com/fullstacktf/myment-front"
+      }
+  }
+}
