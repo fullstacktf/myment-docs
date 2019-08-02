@@ -11,6 +11,6 @@ A logged user will add a new activity to our DB to be used by other users in the
 
   - Share Button
 
-  - Profile Summary (nickname, photo-clickable which activate the full profile, profile info, ranking pos)
+  - Profile Summary (nickname, photo-clickable which activates the full profile, profile info, ranking pos)
 
   - Gen and Ex buttons
