@@ -2,7 +2,7 @@
 
 Our speech will be show to product owners and businessman. For start we provide the next structure:
 
-## 1. History telling
+## 1. Story telling
 
 Alice is a travel girl. All month she fly to other countries for work and never has time to prepare the plans for travel.
  > \- What are you doing Alice?? 
