@@ -1,0 +1,522 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Back-end database · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-forkmegithub/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="DATABASE_SETUP.html" />
+    
+    
+    <link rel="prev" href="../front-docs/JSON_GENERATOR_STRUCTURE.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../front-docs/FRONTEND_STRUCTURE.html">
+            
+                <a href="../front-docs/FRONTEND_STRUCTURE.html">
+            
+                    
+                    Front-end
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../front-docs/LANDING_PAGE.html">
+            
+                <a href="../front-docs/LANDING_PAGE.html">
+            
+                    
+                    Landing page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../front-docs/USE_CASES.html">
+            
+                <a href="../front-docs/USE_CASES.html">
+            
+                    
+                    Use cases
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../front-docs/UNLOGED_USE.html">
+            
+                <a href="../front-docs/UNLOGED_USE.html">
+            
+                    
+                    Unloged
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../front-docs/MAIN_PAGE.html">
+            
+                <a href="../front-docs/MAIN_PAGE.html">
+            
+                    
+                    Main page
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../front-docs/WEBPACK.html">
+            
+                <a href="../front-docs/WEBPACK.html">
+            
+                    
+                    WebPack Configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../front-docs/JSON_GENERATOR_STRUCTURE.html">
+            
+                <a href="../front-docs/JSON_GENERATOR_STRUCTURE.html">
+            
+                    
+                    JSON generator structure example
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="DATABASE.html">
+            
+                <a href="DATABASE.html">
+            
+                    
+                    Back-end database
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="DATABASE_SETUP.html">
+            
+                <a href="DATABASE_SETUP.html">
+            
+                    
+                    Setup and installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="DATABASE_STRUCTURE.html">
+            
+                <a href="DATABASE_STRUCTURE.html">
+            
+                    
+                    Structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="DATABASE_FUNCTIONALITIES.html">
+            
+                <a href="DATABASE_FUNCTIONALITIES.html">
+            
+                    
+                    Functionalities
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../api-docs/API_SERVICES.html">
+            
+                <a href="../api-docs/API_SERVICES.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../api-docs/ACTIVITIES_API.html">
+            
+                <a href="../api-docs/ACTIVITIES_API.html">
+            
+                    
+                    Activities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../api-docs/LOCATIONS_API.html">
+            
+                <a href="../api-docs/LOCATIONS_API.html">
+            
+                    
+                    Locations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../api-docs/TAGS_API.html">
+            
+                <a href="../api-docs/TAGS_API.html">
+            
+                    
+                    Tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../api-docs/USER_API.html">
+            
+                <a href="../api-docs/USER_API.html">
+            
+                    
+                    Users
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../speech-docs/INTRODUCTION.html">
+            
+                <a href="../speech-docs/INTRODUCTION.html">
+            
+                    
+                    Speech docs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../speech-docs/PRESENTATION_STRUCTURE.html">
+            
+                <a href="../speech-docs/PRESENTATION_STRUCTURE.html">
+            
+                    
+                    use this guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Back-end database</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="database">Database</h1>
+<h3 id="what-is-it">What is it?</h3>
+<p>Is <strong>an organized collection of structured information, or data</strong>, typically stored electronically in a computer system.</p>
+<p>In this case (Myment web app), the database will be controlled by a relational database management system (RDBMS) called MariaDB.</p>
+<p>Together, the data and the RDBMS, along with the applications that are associated with them, are referred to as a database system, often shortened to just database.</p>
+<p>Data within the most common types of databases in operation today is typically <strong>modeled in rows and columns in a series of tables</strong> to make processing and data querying efficient. The data <strong>can then be easily accessed, managed, modified, updated, controlled, and organized</strong>.</p>
+<h1 id="technologies-that-we-will-use-in-the-myment-travel-web-app-database">Technologies that we will use in the Myment Travel web app database:</h1>
+<ul>
+<li><p><a href="https://mariadb.com/kb/en/" target="_blank">MariaDB</a>: Is an <strong>open-source fork of the MySQL relational database management system (RDBMS)</strong> that use structured query language (SQL) for writing and querying data.</p>
+</li>
+<li><p><a href="https://sequelize.org/" target="_blank">Sequelize</a>: Is a <strong>Javascript library that makes it easy to manage a SQL database and implements the ORM technique</strong> (wich allows us to write queries, using the object-oriented paradigm of our preferred programming language). In other words, <strong>we will interact with our database using our language of choice instead of SQL</strong>.</p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../front-docs/JSON_GENERATOR_STRUCTURE.html" class="navigation navigation-prev " aria-label="Previous page: JSON generator structure example">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="DATABASE_SETUP.html" class="navigation navigation-next " aria-label="Next page: Setup and installation">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Back-end database","level":"1.3","depth":1,"next":{"title":"Setup and installation","level":"1.3.1","depth":2,"path":"back-docs/DATABASE_SETUP.md","ref":"./back-docs/DATABASE_SETUP.md","articles":[]},"previous":{"title":"JSON generator structure example","level":"1.2.4","depth":2,"path":"front-docs/JSON_GENERATOR_STRUCTURE.md","ref":"./front-docs/JSON_GENERATOR_STRUCTURE.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["image-class","copy-code-button","forkmegithub","resources","sequence","remove-publish-link"],"pluginsConfig":{"remove-publish-link":{"publisher":"Joinforwin","link":"http://www.joinforwin.com:90"},"sequence":{"theme":"simple"},"resources":{"type":"local","repo":"aleen42/PersonalWiki","branch":"master"},"image-class":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"forkmegithub":{"color":"gray","url":"https://github.com/fullstacktf/myment-front"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"back-docs/DATABASE.md","mtime":"2019-08-12T11:43:35.106Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-12T11:44:27.895Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-forkmegithub/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-remove-publish-link/rmlink.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
