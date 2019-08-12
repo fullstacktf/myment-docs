@@ -19,3 +19,4 @@
     * [Users](./api-docs/USER_API.md)
 
 * [Speech docs](./speech-docs/INTRODUCTION.md)
+    * [use this guide](./speech-docs/PRESENTATION_STRUCTURE.md)
